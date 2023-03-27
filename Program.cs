@@ -20,4 +20,4 @@ foreach(var item in products)
     Console.WriteLine($"Price: ${item.Price}");
 }
 
-da.SaveData(); //a void, so it's going to print the data to the console
+da.SaveData();
